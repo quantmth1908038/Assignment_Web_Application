@@ -12,7 +12,7 @@
 <head><!-- HTTP_X_COUNTRY_CODE="global" -->
     <title><decorators:title/></title>
     <%@include file="head.jsp" %>
-<%--    <decorators:head></decorators:head>--%>
+    <decorators:head></decorators:head>
 </head>
 <body data-lazy="image"><!-- Google Tag Manager (noscript) -->
 <noscript>
