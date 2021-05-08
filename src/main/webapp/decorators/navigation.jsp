@@ -1,17 +1,17 @@
 <nav class="d-flex align-items-center"><a href="https://www.lamborghini.com/en-en" class="logo align-self-start"><img
         src="https://www.lamborghini.com/themes/custom/lambo_facelift_2019/images/logo.png" alt="Lamborghini logo"/></a>
     <ul class="d-none d-md-flex lev-1">
-        <li><a href="https://www.lamborghini.com/en-en/models" data-target="left-0"><span>MODELS</span></a></li>
-        <li><a href="https://www.lamborghini.com/en-en/ownership"
+        <li><a href="model.jsp" data-target="left-0"><span>MODELS</span></a></li>
+        <li><a href="ownership.jsp"
                data-target="left-1"><span>OWNERSHIP</span></a></li>
-        <li><a href="https://www.lamborghini.com/en-en/motorsport" data-target="left-2"><span>MOTORSPORT</span></a>
+        <li><a href="motorsport.jsp" data-target="left-2"><span>MOTORSPORT</span></a>
         </li>
-        <li><a href="https://www.lamborghini.com/en-en/pre-owned"><span>Pre-Owned</span></a></li>
+        <li><a href="pre-owned.jsp"><span>Pre-Owned</span></a></li>
     </ul>
     <ul class="d-none d-md-flex ml-auto lev-1 right">
         <li><a href="https://www.lamborghini.com/en-en/dealer-locator"
                data-layer="dealerSearch,Find a Dealer,Click on header"><span>DEALERSHIPS</span></a></li>
-        <li><a href="https://www.lamborghini.com/en-en/museum"><span>MUSEUM</span></a></li>
+        <li><a href="museum.jsp"><span>MUSEUM</span></a></li>
         <li><a href="https://www.lamborghini.com/en-en/store"><span>Store</span></a></li>
     </ul>
     <div class="d-flex right align-items-center">
