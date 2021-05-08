@@ -12,6 +12,15 @@ public class ModelDao {
     EntityManagerFactory emf = Persistence.createEntityManagerFactory("persistence");
     EntityManager em = emf.createEntityManager();
 
+    public void insertModel(ModelEntity modelEntity) {
+        em = emf.createEntityManager();
+        em.getTransaction().begin();
+        em.persist(modelEntity);
+        em.getTransaction().commit();
+        em.close();
+    }
+
+
     public void updateModel(ModelEntity modelEntity) {
         em = emf.createEntityManager();
         em.getTransaction().begin();

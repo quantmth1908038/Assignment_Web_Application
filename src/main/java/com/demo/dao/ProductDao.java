@@ -87,7 +87,4 @@ public class ProductDao {
         return carEntity;
     }
 
-
-
-
 }
