@@ -11,7 +11,7 @@
 
 <!-- Custom fonts for this template-->
 <link
-        href="../vendor/fontawesome-free/css/all.css"
+        href="vendor/fontawesome-free/css/all.css"
         rel="stylesheet"
         type="text/css"
 />
@@ -21,4 +21,4 @@
 />
 
 <!-- Custom styles for this template-->
-<link href="../css/sb-admin-2.css" rel="stylesheet"/>
+<link href="css/sb-admin-2.css" rel="stylesheet"/>
