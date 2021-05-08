@@ -1,6 +1,8 @@
 package com.demo.dao;
 
 import com.demo.entity.CarEntity;
+import com.demo.entity.ModelEntity;
+import com.demo.entity.ParameterEntity;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -54,6 +56,22 @@ public class ProductDao {
         em.getTransaction().commit();
         em.close();
         return list;
+    }
+
+    public void insertModel(ModelEntity modelEntity) {
+        em = emf.createEntityManager();
+        em.getTransaction().begin();
+        em.persist(modelEntity);
+        em.getTransaction().commit();
+        em.close();
+    }
+
+    public void insertParameter(ParameterEntity parameterEntity) {
+        em = emf.createEntityManager();
+        em.getTransaction().begin();
+        em.persist(parameterEntity);
+        em.getTransaction().commit();
+        em.close();
     }
 
 }
