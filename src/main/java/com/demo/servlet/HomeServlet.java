@@ -1,6 +1,7 @@
 package com.demo.servlet;
 
 import com.demo.dao.ProductDao;
+import com.demo.entity.CarEntity;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

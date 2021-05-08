@@ -27,7 +27,7 @@ public class CarEntity {
     @Column(name = "centrostile")
     private String centrostile;
 
-    @Column(name = "name")
+    @Column(name = "model_id")
     private int modelid;
 
     @ManyToOne()
@@ -40,8 +40,7 @@ public class CarEntity {
     public CarEntity() {
     }
 
-    public CarEntity(int id, String name, String overview, String exterior, String interior, String feeltheengine, String centrostile, int modelid) {
-        this.id = id;
+    public CarEntity(String name, String overview, String exterior, String interior, String feeltheengine, String centrostile, int modelid) {
         this.name = name;
         this.overview = overview;
         this.exterior = exterior;
