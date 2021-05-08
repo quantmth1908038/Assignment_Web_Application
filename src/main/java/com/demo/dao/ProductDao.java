@@ -74,4 +74,20 @@ public class ProductDao {
         em.close();
     }
 
+    public CarEntity findCar(int id){
+        em = emf.createEntityManager();
+        em.getTransaction().begin();
+        CarEntity carEntity = em.createQuery(
+                "select p from CarEntity p where p.id =" + id, CarEntity.class).getSingleResult();
+        ParameterEntity entity = em.createQuery(
+                "select p.parameter from CarEntity p where p.id = " + id, ParameterEntity.class).getSingleResult();
+        carEntity.setParameter(entity);
+        em.getTransaction().commit();
+        em.close();
+        return carEntity;
+    }
+
+
+
+
 }

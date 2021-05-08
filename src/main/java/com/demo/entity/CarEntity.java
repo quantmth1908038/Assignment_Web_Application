@@ -1,6 +1,7 @@
 package com.demo.entity;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "car")
@@ -38,6 +39,22 @@ public class CarEntity {
     private ParameterEntity parameter;
 
     public CarEntity() {
+    }
+
+    public ModelEntity getModel() {
+        return model;
+    }
+
+    public void setModel(ModelEntity model) {
+        this.model = model;
+    }
+
+    public ParameterEntity getParameter() {
+        return parameter;
+    }
+
+    public void setParameter(ParameterEntity parameter) {
+        this.parameter = parameter;
     }
 
     public CarEntity(String name, String overview, String exterior, String interior, String feeltheengine, String centrostile, int modelid) {
